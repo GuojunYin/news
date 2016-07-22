@@ -1,0 +1,37 @@
+//隐藏商品分类
+$(function(){
+	$(".menu").find(".menubox").hide();
+	$(".menu").on("mouseenter",function(){
+		$(".menu").find(".menubox").show();
+	}).on("mouseleave",function(){
+		$(".menu").find(".menubox").hide();
+	})
+})
+//商品列表展开
+$(function(){
+	$(".close").hide();
+	$(".open").on("click",function(){
+	$(".innerb").toggleClass("active");
+	$(".open").hide();
+	$(".close").show();
+});
+	$(".close").on("click",function(){
+	$(".innerb").toggleClass("active");
+	$(".close").hide();
+	$(".open").show();
+});
+})
+//轮播
+$(function(){
+	$(".prosilder_more").find(".prev").show().css("display","block");
+	$(".prosilder_more").find(".next").show().css("display","block");
+	$(".prosilder_more").arSlide({
+			autoPlay:true,
+			showButton:true,
+			smallstyle:false,
+			time:3000,
+			type:'moveX'
+	});;
+	$(".prosilder_more").find(".prev").show().css("display","block");
+	$(".prosilder_more").find(".next").show().css("display","block");
+})

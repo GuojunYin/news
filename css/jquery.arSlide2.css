@@ -1,0 +1,43 @@
+.prosilder_more{position:relative;}
+.prosilder_more{overflow:hidden;}
+.prosilder_more ul{position:relative;}
+.prosilder_more ul li{overflow:hidden;}
+.prosilder_more ul li img{display:block;}
+/*渐现效果*/
+.prosilder_more ul.fade li{position:absolute;top:0;left:0;}
+/*水平移动*/
+.prosilder_more ul.moveX{overflow:hidden;}
+.prosilder_more ul.moveX li{float:left;}
+
+/* .big.moveX::after{
+	content:'';
+	display:inline-block;
+	clear:both;
+} */
+/*长方形*/
+.oblong{position: absolute;right:20px;bottom:26px;}
+.oblong span {display: inline-block;height:7px;width:70px;margin:5px;background:#999;}
+/*圆点*/
+.round{position: absolute;right:0px;bottom:10px;}
+.round span {display: inline-block;height:25px;width:25px;margin:5px;background:#737373;border-radius:50%;color:#fff;line-height: 25px;text-align: center;}
+/*正方形*/
+.square{position: absolute;right:20px;bottom:4px;font-size:12px;text-align:center;line-height:20px;font-weight:bold}
+.square span{display: inline-block;height:20px;width:20px;margin:0 3px;background:#656565;color:#bababa;}
+.prosilder_more span.active{background:#f60;}
+.prosilder_more .prev,.next{
+	display: block;
+	position:absolute;
+	top:37%;
+	height:16px;
+	width:9px;
+	
+	cursor:pointer;
+	z-index: 5;}
+.prosilder_more .prev{left:0px;background: url(../img/abtn130426.png) no-repeat 0 0;}
+.prosilder_more .next{right:0px;background: url(../img/abtn130426.png) no-repeat -9px 0;}
+.prosilder_more .prev:hover{
+	background: url(../img/abtn130426.png) no-repeat 0 -35px
+}
+.prosilder_more .next:hover{
+	background: url(../img/abtn130426.png) no-repeat -9px -35px
+}

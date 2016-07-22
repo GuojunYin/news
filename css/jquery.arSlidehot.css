@@ -1,0 +1,29 @@
+.tabc{position:relative;}
+.tabc{overflow:hidden;}
+.tabc ul{position:relative;}
+.tabc ul li{overflow:hidden;}
+.tabc ul li img{display:block;}
+/*渐现效果*/
+.tabc ul.fade li{position:absolute;top:0;left:0;}
+/*水平移动*/
+.tabc ul.moveX{overflow:hidden;}
+.tabc ul.moveX li{float:left;}
+
+/* .big.moveX::after{
+	content:'';
+	display:inline-block;
+	clear:both;
+} */
+/*长方形*/
+.oblong{position: absolute;right:20px;bottom:26px;}
+.oblong span {display: inline-block;height:7px;width:70px;margin:5px;background:#999;}
+/*圆点*/
+.tabc .round{position: absolute;right:0px;bottom:10px;}
+.tabc .round span {display: inline-block;height:25px;width:25px;margin:5px;background:#737373;border-radius:50%;color:#fff;line-height: 25px;text-align: center;}
+/*正方形*/
+.tabc .square{position: absolute;right:20px;bottom:4px;font-size:12px;text-align:center;line-height:20px;font-weight:bold}
+.tabc .square span{display: inline-block;height:20px;width:20px;margin:0 3px;background:#656565;color:#bababa;}
+.tabc span.active{background:#f60;}
+
+
+

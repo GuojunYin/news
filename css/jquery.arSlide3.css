@@ -1,0 +1,28 @@
+.banner_rightSlide{position:relative;}
+.banner_rightSlide{overflow:hidden;}
+.banner_rightSlide ul{position:relative;}
+.banner_rightSlide ul li{overflow:hidden;}
+.banner_rightSlide ul li img{display:block;}
+/*渐现效果*/
+.banner_rightSlide ul.fade li{position:absolute;top:0;left:0;}
+/*水平移动*/
+.banner_rightSlide ul.moveX{overflow:hidden;}
+.banner_rightSlide ul.moveX li{float:left;}
+
+/* .big.moveX::after{
+	content:'';
+	display:inline-block;
+	clear:both;
+} */
+/*长方形*/
+.oblong{position: absolute;right:20px;bottom:26px;}
+.oblong span {display: inline-block;height:7px;width:70px;margin:5px;background:#999;}
+/*圆点*/
+.banner_rightSlide .round{position: absolute;left:0px;top:5px;}
+.banner_rightSlide .round span {display: inline-block;height:10px;width:10px;margin:5px;background:#d9d9d9;border-radius:50%;color:#d9d9d9;line-height: 10px;text-align: center;}
+/*正方形*/
+.square{position: absolute;right:20px;bottom:4px;font-size:12px;text-align:center;line-height:20px;font-weight:bold}
+.square span{display: inline-block;height:20px;width:20px;margin:0 3px;background:#656565;color:#bababa;}
+.banner_rightSlide span.active{background:#f60;}
+
+

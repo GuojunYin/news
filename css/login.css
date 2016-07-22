@@ -1,0 +1,248 @@
+/*--------------header--------------------*/
+#header{
+	width: 1200px;
+	
+	margin: 0 auto;
+	background:url(../img/denglu1.jpg) no-repeat 350px 27px;
+	border-top:1px solid #e2e2e2 ;
+}
+#header h1{
+	padding: 20px 0 25px 0;
+	width: 346px;
+	float: left;
+	
+}
+#header span{
+	font-size: 22px;
+	font-weight: bold;
+	display: block;
+	float:left;
+	line-height: 107px;
+	margin-left: 25px;
+	
+
+}
+/*------------min------------*/
+#min{
+	height: 485px;
+	width: 100%;
+	background: #e3e3e3;
+}
+.minbox{
+	height: 485px;
+	width: 1200px;
+	
+	margin: 0 auto;
+	position: relative;
+}
+.min_left{
+	width: 478px;
+	height: 362px;
+	position: absolute;
+	top: 46px;
+	left: 136px;
+}
+.min_right{
+	width: 362px;
+	height: 357px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	top: 46px;
+	right: 120px;
+	padding: 20px 0;
+	background: #fff;
+	
+	
+}
+.min_right_top{
+	padding: 0 25px 15px 30px;
+	position: relative;
+}
+.min_right_top h2{
+	height: 21px;
+	margin-bottom: 23px;
+	color: #333;
+	float: left;
+	font-size: 18px ;
+	
+}
+.min_right_top span{
+	float: right;
+	display: inline;
+}
+.min_right_top .li_1{
+	text-align: center;
+	height: 57px;
+	overflow: hidden;
+	position: absolute;
+	top: 60px;
+	left: 40px;
+}
+
+.min_right_top .li_1 .zhuce{
+	background: url(../img/login_icon.png) no-repeat 0 0;
+	width: 30px;
+	height: 33px;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	margin-right: 1px;
+}
+.li_1 .inp1{
+	width: 250px;
+	vertical-align: middle;
+	
+	height: 31px;
+	border: 1px solid #CFCFCF;
+	line-height: 30px;
+	text-indent: 5px;
+	color: #b7b7b7;
+}
+.li_2 .inp2{
+	width: 250px;
+	vertical-align: middle;
+	
+	height: 31px;
+	border: 1px solid #CFCFCF;
+	line-height: 30px;
+	text-indent: 5px;
+	color: #b7b7b7;
+}
+.min_right_top .li_1{
+	text-align: center;
+	height: 57px;
+	overflow: hidden;
+	position: absolute;
+	top: 37px;
+	left: 40px;
+}
+
+.min_right_top .li_2 .zhuce{
+	background: url(../img/login_icon.png) no-repeat 0 -59px;
+	width: 30px;
+	height: 33px;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	margin-right: 1px;
+}
+.li_2 .inp{
+	width: 250px;
+	vertical-align: middle;
+	
+	height: 31px;
+	border: 1px solid #CFCFCF;
+	line-height: 30px;
+	text-indent: 5px;
+	color: #b7b7b7;
+}
+.min_right_top .li_2{
+	text-align: center;
+	height: 57px;
+	overflow: hidden;
+	position: absolute;
+	top: 95px;
+	left: 40px;
+}
+.min_right_top p{
+	width: 282px;
+	height: 14px;
+	position: absolute;
+	top: 160px;
+	
+	
+}
+.min_right_top p a{
+	color: #003399;
+	font-size: 12px;
+}
+.min_right_top p .a1{
+	float: right;
+}
+.denglu1{
+	display: block;
+	width:280px;
+	height: 32px;
+	color: #fff;
+	font-size: 14px;
+	background: #f60;
+	text-align: center;
+	line-height: 32px;
+	position: absolute;
+	top: 184px;
+	left: 39px;
+	cursor: pointer;
+	
+}
+.min_right .p1{
+	font-size:12px;
+	color: #666666;
+	margin-top: 75px;
+	
+}
+.min_right .ul1{	
+	width: 320px;
+	height: 100px;	
+	position: absolute;
+	top:266px; 	
+}
+.min_right .ul1 li{
+	float: left;
+}
+.min_right .ul1 li a{
+	display: block;
+	width: 79px;
+	height: 31px;
+	color: #666;
+	font-size: 12px;
+	line-height: 31px;
+	
+	text-indent: 33px;
+	float: left;
+}
+.min_right .ul1 li .ula1{
+	background: url(img/4link.png) no-repeat 0 0;
+}
+.min_right .ul1 li .ula2{
+	background: url(img/4link.png) no-repeat 0 -46px;
+}
+.min_right .ul1 li .ula3{
+	background: url(img/4link.png) no-repeat 0 -98px;
+}
+.min_right .ul1 li .ula4{
+	background: url(img/4link.png) no-repeat 0 -129px;
+}
+.tishi1{
+	width: 250px;
+	height: 20px;
+	color: #f60;
+	
+	position: absolute;
+	top: 92px;
+	left: 72px;
+}
+.tishi2{
+	width: 250px;
+	height: 20px;
+	color: #f60;
+
+	position: absolute;
+	top: 152px;
+	left: 72px;
+}
+
+
+/*--------------foot------------------------------*/
+#foot{
+	width: 100%;
+	height: 205px;
+	
+	position: relative;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	
+	left: 27%;
+	
+}

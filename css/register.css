@@ -1,0 +1,158 @@
+/*---------------------------注册主要部分------------*/
+#min{
+	background: #f9f9f9;
+}
+.min_top{
+	width: 960px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;s
+	color:#4848;
+	margin: 0 auto;
+}
+.min_top a{
+	color: #f60;
+}
+.min_top_span{
+	float: right;
+}
+.min_bto{
+	width: 960px;
+	
+	margin: 0 auto;
+	position: relative;
+}
+.step{
+	margin: 20px auto;
+    background: url(img/register_step.png) no-repeat 0 0;
+    width: 655px;
+    height: 30px;
+    
+}
+.register{
+	position: relative;
+    text-align: center;
+    margin-top: 40px;
+ }  
+.register_con_box{
+	text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.txtPhone,.txtname,.txtpassword,.txtCodeForEmail{
+	display: inline-block;
+    width: 66px;
+    text-align: left;
+}
+.reg_txt_0,.reg_txt_name,.reg_txt_password{
+	height: 30px;
+    width: 255px;
+    line-height: 30px;
+    border: 1px solid #cfcfcf;
+    text-indent: 5px;
+    overflow: hidden;
+    background: #F9F9F9;
+}
+.reg_txt_1{
+	height: 30px;
+    width: 130px;
+    line-height: 30px;
+    border: 1px solid #cfcfcf;
+    text-indent: 5px;
+    overflow: hidden;
+    background: #F9F9F9;
+    vertical-align: middle;
+    margin-right: 5px;
+    text-align: center;
+}
+.code{
+	display: inline-block;
+    height: 32px;
+    width: 115px;
+    background: lightgoldenrodyellow;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 4px;
+}
+.vimg{
+	display: block;
+    height: 32px;
+    width: 115px;
+    position: absolute;
+    top: 12px;
+}
+
+.change_code{
+	position: absolute;
+    top: 15px;
+}
+.denglu2 a{
+	color: #fff;
+	background: #f60;
+	padding: 7px 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*----------用于验证的隐藏p--------------------*/
+.min_bto_p1{
+	height: 20px;
+    width: 255px;   
+	position: absolute;
+	top: 50px;
+	left:385px;
+	color: #f60;
+	
+}
+.min_bto_p2{
+	height: 20px;
+    width: 255px;    
+	position: absolute;
+	top: 103px;
+	left:385px;
+	color: #f60;
+}	
+
+.min_bto_p3{
+	height: 20px;
+    width: 255px;    
+	position: absolute;
+	top: 160px;
+	left:385px;
+	color: #f60;
+}	
+.min_bto_p4{
+	height: 20px;
+    width: 255px;   
+	position: absolute;
+	top: 225px;
+	left:385px;
+	color: #f60;
+}	
+
+.ljzc{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
