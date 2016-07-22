@@ -26,7 +26,7 @@ $(function(){
 })
 //---------倒计时
 function GetRTime(){
-	var EndTime= new Date("2016/08/20 00:00:00");
+	var EndTime= new Date("2018/08/20 00:00:00");
 	var NowTime=new Date();
 	var t=EndTime.getTime()-NowTime.getTime();
 	var d=0;
